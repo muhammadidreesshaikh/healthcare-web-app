@@ -1,0 +1,52 @@
+<div class="header">
+    <div class="container">
+        <div class="toggleContainer" (click)="toggleMenu()" [class.change]="toggleButton">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-6 col-md-4 col-lg-4">
+                <a class="logo" routerLink="/homepage">
+                    <img src="https://img.freepik.com/free-photo/mesmerising-chameleon-wild_23-2151731289.jpg?t=st=1728043090~exp=1728046690~hmac=d7fa319aa14d737703b1ab418198e7d6fccbfabfdd8caaf98fac078dc686f425&w=900">
+                    Health Care Checkup
+                </a>
+            </div>
+
+            <div class="col-6 col-md-8 col-lg-8">
+                <div class="nav">
+                    <ul>
+                        <li><a class="text-uppercase" routerLink="/about-us">About Us</a></li>
+                        <li> <a class="text-uppercase" routerLink="/services">Services</a></li>
+                        <li><a class="text-uppercase" routerLink="/departments">Departments</a></li>
+                        <li><a class="text-uppercase" routerLink="/doctors">Doctors</a></li>
+                        <li><a class="text-uppercase" routerLink="/contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar side" [class.show]="sidebar">
+    <ul>
+        <li>
+            <a (click)="toggleMenu()" routerLink="/about-us">About Us</a>
+        </li>
+        <li>
+            <a (click)="toggleMenu()" routerLink="/services">Services</a>
+        </li>
+        <li>
+            <a (click)="toggleMenu()" routerLink="/departments">Departments</a>
+        </li>
+        <li>
+            <a (click)="toggleMenu()" routerLink="/doctors">Doctors</a>
+        </li>
+        <li>
+            <a (click)="toggleMenu()" routerLink="/contact-us">Contact Us</a>
+        </li>
+    </ul>
+</div>
+
+<div class="fade-area" [class.show]="fadeSection" (click)="toggleMenu()"></div>
