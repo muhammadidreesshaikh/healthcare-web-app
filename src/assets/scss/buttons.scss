@@ -1,0 +1,13 @@
+a{
+    &.large-btn{
+        background-color: #dd3030; 
+        padding: 8px 20px;
+        color: $white;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+    &:hover{
+        transition: 0.5s;
+        background-color: #ff3c3c;
+    }
+}
