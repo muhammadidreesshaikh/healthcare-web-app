@@ -31,3 +31,34 @@
         }
     }
 }
+
+.online-services {
+    padding: 50px 0;
+
+    .small-card {
+        img {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #efefef;
+            border-radius: 5px;
+            padding: 1px;
+        }
+
+        h2 {
+            padding-top: 25px;
+            font-size: 19px;
+            color: $black;
+        }
+
+        select {
+            &.form-select {
+                color: #6c757d;
+            }
+        }
+
+        .small-card-btn {
+            margin-top: 20px;
+            float: right;
+        }
+    }
+}
