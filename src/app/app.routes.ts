@@ -6,6 +6,7 @@ import { DoctorsComponent } from './components/doctors/doctors.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { AppointmentComponent } from './components/appointment/appointment.component';
+import { OnlinePharmacyComponent } from './components/online-pharmacy/online-pharmacy.component';
 
 export const routes: Routes = [
     {
@@ -39,5 +40,9 @@ export const routes: Routes = [
     {
         path: 'appointment',
         component: AppointmentComponent
+    },
+    {
+        path: 'online-pharmacy',
+        component: OnlinePharmacyComponent
     }
 ];
