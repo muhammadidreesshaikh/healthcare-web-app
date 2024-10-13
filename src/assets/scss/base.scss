@@ -36,3 +36,16 @@ select {
     width: 100%;
     height: 240px;
 }
+
+// chip
+.small-chip {
+    margin-top: 15px;
+
+    a {
+        background-color: $red;
+        color: $white;
+        font-size: 13px;
+        padding: 4px 15px;
+        border-radius: 4px;
+    }
+}
