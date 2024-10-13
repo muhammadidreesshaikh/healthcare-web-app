@@ -5,6 +5,7 @@ import { DepartmentsComponent } from './components/departments/departments.compo
 import { DoctorsComponent } from './components/doctors/doctors.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { AppointmentComponent } from './components/appointment/appointment.component';
 
 export const routes: Routes = [
     {
@@ -34,5 +35,9 @@ export const routes: Routes = [
     {
         path: 'contact-us',
         component: ContactUsComponent
+    },
+    {
+        path: 'appointment',
+        component: AppointmentComponent
     }
 ];
