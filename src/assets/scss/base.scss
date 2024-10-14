@@ -29,7 +29,7 @@ select {
 }
 
 // cards
-.small-card{
+.small-card {
     box-shadow: 0px 3px 12px 0 #00000014;
     padding: 25px;
     border-radius: 5px;
@@ -38,14 +38,11 @@ select {
 }
 
 // chip
-.small-chip {
-    margin-top: 15px;
-
-    a {
-        background-color: $red;
-        color: $white;
-        font-size: 13px;
-        padding: 4px 15px;
-        border-radius: 4px;
-    }
+.chip {
+    background-color: $red;
+    color: $white;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 15px;
 }
