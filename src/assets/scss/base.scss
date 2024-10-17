@@ -22,6 +22,29 @@ a {
     cursor: pointer;
 }
 
+
+// banner
+.standard-banner {
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #222222;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 40px;
+        color: $white;
+        font-weight: 600;
+    }
+}
+
+// placeholder-text-color
 select {
     &.form-select {
         color: #6c757d;

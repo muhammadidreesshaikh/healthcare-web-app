@@ -1,26 +1,25 @@
 @import '../../../styles.scss';
 
+.standard-banner {
+    background-image: url(https://i.ibb.co/SNbDvp9/o1.jpg);
+}
+
+
 .online-pharmacy {
     padding: 50px 0;
 
-    .filter-bar {
-        h4 {
-            font-size: 25px;
-            font-weight: 500;
-            color: $black;
-        }
+    .search-bar {
+        position: relative;
+        float: right;
+        width: 40%;
 
-        .select-bar {
-            position: relative;
-
-            a {
-                img {
-                    position: absolute;
-                    top: 5px;
-                    right: 10px;
-                    width: 26px;
-                    height: 26px;
-                }
+        a {
+            img {
+                position: absolute;
+                top: 5px;
+                right: 10px;
+                width: 26px;
+                height: 26px;
             }
         }
     }
@@ -51,12 +50,16 @@
                     font-size: 16px;
                     color: $black;
                 }
+
+                .profile-btn {
+                    margin-top: 15px;
+                }
             }
         }
     }
 
-    .pharmacy-btn{
-        margin-top: 5rem;
+    .pharmacy-btn {
+        margin-top: 4rem;
         text-align: center;
     }
 }
