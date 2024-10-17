@@ -1,13 +1,28 @@
 @import '../../../styles.scss';
 
+.standard-banner {
+    background-image: url(https://i.ibb.co/D9TCFHj/03.jpg);
+}
+
 .doctor {
     padding: 50px 0;
 
     .filter-bar {
         h2 {
-            font-size: 35px;
+            font-size: 25px;
             font-weight: 600;
             color: $black;
+            padding-top: 5px;
+        }
+
+        .filter-inner {
+            display: flex;
+            justify-content: space-between;
+
+            input,
+            select {
+                width: 40%;
+            }
         }
 
         .filter-btn {
@@ -43,7 +58,7 @@
                     color: $black;
                 }
 
-                .dr-btn{
+                .dr-btn {
                     margin-top: 15px;
                 }
 
